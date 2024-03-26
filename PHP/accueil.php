@@ -73,7 +73,7 @@ $result = mysqli_query($connection, $query);
             <h3 id="video_explicative">Vidéo explicative</h3>
             <br>
             <p class="video">Dans cette vidéo vous retrouverez la manière d'utiliser notre plateforme de ticketing Intern</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GJWJIcsiU_Q?si=gzyXLvVDZn2qY33u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            <h3 id="tickets_recents">Tickets récents :</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cEjh0WO0Ms8?si=N6EbO324GeZZnT27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br>
 
             <?php
