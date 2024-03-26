@@ -62,8 +62,14 @@ $_SESSION['captcha'] = $somme;
             <option value="G26">G26</option>
         </select><br><br>
 
-        <label for="ip"><span class="info" title="Laissez vide pour utiliser l'adresse IP de votre machine">i</span>Adresse IP du poste :</label> <br>
+        <label for="ip">
+            <div class="info-bulle">
+                Adresse IP du poste :<span class="info" title="Laissez vide pour utiliser l'adresse IP de votre machine">i</span>
+                <div class="info-text">Laissez vide pour utiliser l'adresse IP de votre machine</div>
+            </div>
+        </label> <br>
         <input type="text" id="ip" name="ip" maxlength="15"><br><br>
+
 
         <label for="priorite">Priorité<span class="required">*</span> :</label>
         <select id="priorite" name="priorite">

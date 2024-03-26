@@ -28,7 +28,7 @@ if ($type == 'fermes') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page utilisateur</title>
+    <title>Page admin système</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link href="../CSS/style_user.css" rel="stylesheet">

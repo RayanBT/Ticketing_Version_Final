@@ -96,17 +96,6 @@ input[type="submit"]:hover,
     transition: background-color 0.3s ease;
 }
 
-.info {
-    display: none;
-    font-size: 14px;
-    color: #666;
-    margin-left: 5px;
-}
-
-.info:hover {
-    display: inline;
-}
-
 .required {
     color: red;
 }
@@ -115,5 +104,34 @@ input[type="submit"]:hover,
     font-style: italic;
 }
 
+.info-bulle {
+    position: relative;
+    display: inline-block;
+}
 
+.info {
+    cursor: pointer;
+    color: blue;
+}
 
+.info-text {
+    visibility: hidden;
+    width: auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.info-bulle:hover .info-text {
+    visibility: visible;
+    opacity: 1;
+}
