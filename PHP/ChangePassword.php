@@ -12,7 +12,7 @@ if (!isset($_SESSION['login'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changer le mot de passe</title>
-    <link href="../CSS/style_form_ticket.css" rel="stylesheet">
+    <link href="../CSS/style_form_contact.css" rel="stylesheet">
     <link href="../CSS/style_volet_information.css" rel="stylesheet">
 </head>
 <body>

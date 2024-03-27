@@ -4,9 +4,8 @@ require_once('fonction_get_session.php');
 require_once('fonction_connexion_bd.php');
 
 function reopenTicket($ticket_id, $justification) {
-    global $host, $user, $password, $database;
 
-    $connection = connectToDatabase($host, $user, $password, $database);
+    $connection = connectToDatabase();
 
     $query = "UPDATE tickets SET statut = 'Ouvert' WHERE id_ticket = ?";
     $stmt = mysqli_prepare($connection, $query);

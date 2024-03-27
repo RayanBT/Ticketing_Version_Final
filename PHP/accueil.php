@@ -1,10 +1,8 @@
 <?php
 include 'fonction_creation_table.php';
+require 'fonction_connexion_bd.php';
 
-$host = "localhost";
-$user = "root";
-$password = "";
-$connection = mysqli_connect($host, $user, $password) or die("Erreur de connexion à la base de données");
+$connection = connectToDatabase();
 $namedb = "BD_Ticketing";
 $db = mysqli_select_db($connection, $namedb) or die("Erreur de sélection de la base de données");
 $tab = "tickets";
@@ -20,7 +18,7 @@ $result = mysqli_query($connection, $query);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil</title>
+    <title>Acceuil</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link href="../CSS/style_seconde_proposition.css" rel="stylesheet">

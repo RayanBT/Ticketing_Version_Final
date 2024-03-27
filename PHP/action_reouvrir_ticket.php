@@ -24,6 +24,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['couleur'] = false;
 }
 
-header('Location: ../PHP/utilisateur.php');
+header('Location: ../PHP/authentification.php');
 exit();
 ?>

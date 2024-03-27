@@ -69,14 +69,10 @@ if (!isset($_SESSION['login'])) {
     <div class="corps">
         <main>
             <?php
-            $host = "localhost";
-            $user = "root";
-            $password = "";
-            $database = "BD_Ticketing";
             $table = "tickets";
             $role = getRole();
 
-            $connection = connectToDatabase($host, $user, $password, $database);
+            $connection = connectToDatabase();
 
             if (isset($_GET['id'])) {
                 $ticket_id = $_GET['id'];
@@ -155,7 +151,7 @@ if (!isset($_SESSION['login'])) {
                 <tbody>
                 <?php
                 // Connexion à la base de données
-                $connection = connectToDatabase($host, $user, $password, $database);
+                $connection = connectToDatabase();
 
                 $query = "SELECT at.date_action, u.login AS personne, at.justification 
                           FROM actions_tickets at

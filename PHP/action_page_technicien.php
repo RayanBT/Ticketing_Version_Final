@@ -9,13 +9,9 @@ function updateTickets($tickets_selected, $login_technicien) {
     }
 
     if (isset($tickets_selected)) {
-        $host = "localhost";
-        $user = "root";
-        $password = "";
-        $database = "BD_Ticketing";
         $table = "tickets";
 
-        $connection = connectToDatabase($host, $user, $password, $database);
+        $connection = connectToDatabase();
 
         // Mettre à jour les tickets avec le login du technicien
         $update_query = "UPDATE $table SET Technicien = ?, Statut = 'En cours' WHERE id_ticket IN (" . implode(',', $tickets_selected) . ")";

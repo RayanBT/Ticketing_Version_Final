@@ -30,9 +30,8 @@ function getAll(){
 }
 
 function getUserIdByUsername($username) {
-    global $host, $user, $password, $database;
 
-    $connection = connectToDatabase($host, $user, $password, $database);
+    $connection = connectToDatabase();
 
     $query = "SELECT id_user FROM user WHERE login = ?";
     $stmt = mysqli_prepare($connection, $query);
