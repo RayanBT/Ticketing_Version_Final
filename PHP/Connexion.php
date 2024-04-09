@@ -1,6 +1,6 @@
 <?php
 session_start();
-// Inclure le fichier de configuration des logs
+
 require_once('Config.php');
 require_once ('RC4.php');
 ini_set('display_errors', 1);
@@ -12,7 +12,7 @@ if (isset($_POST["connexion"])) {
     $password = "";
     $key_rc4 = "Groupe1";
     if (!empty($_POST['login_connexion']) and !empty($_POST['mot_de_passe'])) {
-        // Récupérez l'e-mail et le mot de passe saisis dans le formulaire de connexion
+
         $login = $_POST["login_connexion"];
         $_SESSION['login'] = $login;
         $mot_de_passe = $_POST["mot_de_passe"];
@@ -35,7 +35,6 @@ if (isset($_POST["connexion"])) {
             mysqli_stmt_bind_result($stmt, $hashed_password);
             mysqli_stmt_fetch($stmt);
 
-            // Vérifiez le mot de passe (en MD5)
             if ($mot_de_passe === rc4_decrypt($hashed_password, $key_rc4)) {
                 logMessage("Connexion réussie pour l'utilisateur avec le login : $login");
                 $query = "SELECT user_role FROM $tab WHERE Login = '$login'";

@@ -11,7 +11,7 @@ $user = "root";
 $password = "";
 $database = "BD_Ticketing";
 
-// Vérifiez si le fichier de log existe, sinon, créez-le
+// Vérifie si le fichier de log existe, sinon, crée-le
 if (!file_exists($logConfig['logFile'])) {
     $file = fopen($logConfig['logFile'], 'w');
     fclose($file);

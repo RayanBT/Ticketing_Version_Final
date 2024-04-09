@@ -141,10 +141,8 @@ $connection = mysqli_connect($host, $user, $password, $database) or die("Erreur 
 
                     echo "<td>";
                     echo "<select name='assigne[]'>";
-                    // Ajoutez une option par défaut
                     echo "<option value='Non assigné'>Non assigné</option>";
 
-                    // Utilisez une fonction pour récupérer les utilisateurs techniciens
                     $techniciens = getTechniciens($connection);
 
                     foreach ($techniciens as $technicien) {
@@ -155,7 +153,6 @@ $connection = mysqli_connect($host, $user, $password, $database) or die("Erreur 
                     echo "</select>";
                     echo "</td>";
 
-                    // Ajoutez un champ caché pour l'ID du ticket
                     echo "<input type='hidden' name='id_ticket[]' value='" . $row['Id'] . "'>";
                     echo "</tr>";
                 }

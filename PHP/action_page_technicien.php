@@ -13,7 +13,6 @@ function updateTickets($tickets_selected, $login_technicien) {
 
         $connection = connectToDatabase();
 
-        // Mettre à jour les tickets avec le login du technicien
         $update_query = "UPDATE $table SET Technicien = ?, Statut = 'En cours' WHERE id_ticket IN (" . implode(',', $tickets_selected) . ")";
         $stmt_update = mysqli_prepare($connection, $update_query);
 

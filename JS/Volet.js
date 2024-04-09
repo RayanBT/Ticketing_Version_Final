@@ -15,5 +15,5 @@ function afficherVolet(message, couleur) {
     // Supprime le volet après quelques secondes (ajustez le délai selon vos préférences)
     setTimeout(function () {
         document.body.removeChild(volet);
-    }, 3000); // 3000 millisecondes (3 secondes)
+    }, 3000);
 }

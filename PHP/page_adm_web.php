@@ -124,9 +124,7 @@ $connection = mysqli_connect($host, $user, $password, $database) or die("Erreur 
             $queryTechniciens = "SELECT login FROM user WHERE user_role = 'technicien'";
             $resultTechniciens = mysqli_query($connection, $queryTechniciens);
 
-            // Vérifiez s'il y a des techniciens
             if ($resultTechniciens && mysqli_num_rows($resultTechniciens) > 0) {
-                // Pour chaque technicien, récupérez les tickets qu'il a pris en charge
                 while ($rowTechnicien = mysqli_fetch_assoc($resultTechniciens)) {
                     $technicienLogin = $rowTechnicien['login'];
 

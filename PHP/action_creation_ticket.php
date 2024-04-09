@@ -25,11 +25,9 @@ if (isset($_POST['captcha']) && isset($_SESSION['captcha'])) {
             $ip = $_POST['ip'];
             if (!empty($ip)) {
                 if (!validateIP($ip)) {
-                    // Si l'adresse IP n'est pas valide, utilisez l'IP locale par défaut
                     $ip = getDefaultIP();
                 }
             } else {
-                // Si aucune IP n'est fournie, utilisez l'IP locale par défaut
                 $ip = getDefaultIP();
             }
             $priorite = $_POST['priorite'];
@@ -52,7 +50,7 @@ if (isset($_POST['captcha']) && isset($_SESSION['captcha'])) {
             if ($success) {
                 // Redirection vers utilisateur.php si l'insertion est réussie
                 header("Location: authentification.php");
-                exit(); // Assurez-vous d'utiliser exit() après la redirection pour arrêter l'exécution du script
+                exit();
             } else {
                 echo "Erreur lors de l'insertion des données : " . mysqli_error($connection);
             }

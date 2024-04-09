@@ -16,7 +16,7 @@ function readCSVForToday($csvDirectory)
 
         return $lines;
     } else {
-        return false; // Retourner false si le fichier n'existe pas
+        return false;
     }
 }
 ?>

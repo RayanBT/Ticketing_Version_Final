@@ -82,7 +82,6 @@ if ($type == 'fermes') {
 
                 // Afficher les tickets
                 if ($result && mysqli_num_rows($result) > 0) {
-                    // Utilisez la fonction de création de table pour afficher les résultats
                     creationTable($result, $_SESSION['user_role']);
                 } else {
                     echo "Aucun ticket trouvé.";

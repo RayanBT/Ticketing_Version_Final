@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Inclut le fichier de configuration des logs
+
 require_once('Config.php');
 require_once ('RC4.php');
 
@@ -38,7 +38,6 @@ if (isset($_POST["changer_mot_de_passe"])) {
         $tab = "user";
 
     } else {
-        // Rediriger vers la page de connexion si le login de l'utilisateur n'est pas disponible
         header('Location: form_connexion_inscription.php');
         exit();
     }

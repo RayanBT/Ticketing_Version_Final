@@ -1,6 +1,6 @@
 <?php
 session_start();
-// Inclure le fichier de configuration des logs
+
 require_once('Config.php');
 require_once ('RC4.php');
 // Vérifie si le formulaire a été soumis
@@ -107,7 +107,6 @@ if (isset($_POST["inscription"]) or isset($_POST["inscription_technicien"])) {
                     }
                 }
 
-                // Fermeture de la connexion à la base de données
                 mysqli_close($connection);
             }
         }else{

@@ -13,7 +13,6 @@ $database = "BD_Ticketing";
 
 $connection = mysqli_connect($host, $user, $password, $database) or die("Erreur de connexion à la base de données");
 
-// Récupérer les informations de l'utilisateur depuis la base de données
 $login = $_SESSION['login'];
 $query = "SELECT * FROM user WHERE login = '$login'";
 $result = mysqli_query($connection, $query);
@@ -144,7 +143,6 @@ $userData = mysqli_fetch_assoc($result);
                 echo "<li>Peuvent clôturer un ticket une fois le problème résolu.</li>";
                 echo "</ul>";
 
-                // Ajoutez ici les droits spécifiques pour les techniciens
             } elseif ($role == "Administrateur Web") {
                 echo "<p class='p_user'>En tant qu'$role, vous avez les droits suivants :</p>";
                 echo "<ul class='p_user'>";

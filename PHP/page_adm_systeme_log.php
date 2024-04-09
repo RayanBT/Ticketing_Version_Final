@@ -9,7 +9,7 @@ if (!isset($_SESSION['login']) || $_SESSION['user_role'] !== "admin_systeme") {
     exit();
 }
 
-// Inclure la fonction de lecture CSV
+
 require 'fonction_read_csv_today.php';
 
 // Chemin vers votre répertoire où sont stockés les fichiers CSV

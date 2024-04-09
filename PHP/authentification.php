@@ -1,6 +1,6 @@
 <?php
 session_start();
-// Inclure le fichier de configuration des logs
+
 require_once('Config.php');
 require 'fonction_get_session.php';
 if (!isset($_SESSION['login'])) {

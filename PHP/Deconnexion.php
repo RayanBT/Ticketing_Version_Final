@@ -1,5 +1,5 @@
 <?php
-// Démarrez la session (si elle n'est pas déjà démarrée)
+
 session_start();
 
 // Détruire toutes les variables de session

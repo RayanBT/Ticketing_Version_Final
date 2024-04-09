@@ -1,5 +1,5 @@
 <?php
-// Inclure le fichier de configuration des logs
+
 require_once('Config.php');
 require_once('fonction_check_connexion.php');
 require_once('fonction_fermer_ticket.php');

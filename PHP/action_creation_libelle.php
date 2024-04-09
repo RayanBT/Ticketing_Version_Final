@@ -38,7 +38,7 @@ if (isset($_POST['creation_libelle'])) {
                     $_SESSION['couleur'] = true;
                     // Redirection vers utilisateur.php si l'insertion est réussie
                     header("Location: authentification.php");
-                    exit(); // Assurez-vous d'utiliser exit() après la redirection pour arrêter l'exécution du script
+                    exit();
                 } else {
                     $_SESSION['message'] = "Erreur lors de l'insertion des données : " . mysqli_error($connection);
                     $_SESSION['couleur'] = false;
