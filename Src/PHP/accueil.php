@@ -71,7 +71,7 @@ $result = mysqli_query($connection, $query);
             <h3 id="video_explicative">Vidéo explicative</h3>
             <br>
             <p class="video">Dans cette vidéo vous retrouverez la manière d'utiliser notre plateforme de ticketing Intern</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/cEjh0WO0Ms8?si=N6EbO324GeZZnT27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9uEyFrY2Avs?si=r3xCeONPE2Eqn1rJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br>
 
             <?php
