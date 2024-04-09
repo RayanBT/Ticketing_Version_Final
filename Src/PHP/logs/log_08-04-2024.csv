@@ -1,0 +1,15 @@
+[08-04-2024 21:24:03],[error],[IP: ::1],Tentative de connexion échouée pour l'utilisateur avec le login : Isma
+[08-04-2024 21:24:06],[error],[IP: ::1],Tentative de connexion échouée pour l'utilisateur avec le login : isma
+[08-04-2024 21:24:17],[error],[IP: ::1],Tentative de connexion échouée pour l'utilisateur avec le login : isma
+[08-04-2024 21:24:21],[error],[IP: ::1],Tentative de connexion échouée pour l'utilisateur avec le login : Isma
+[08-04-2024 21:24:50],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : gestion
+[08-04-2024 21:24:50],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[08-04-2024 21:24:55],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[08-04-2024 21:25:00],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[08-04-2024 21:25:02],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[08-04-2024 21:25:04],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[08-04-2024 21:25:08],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[08-04-2024 21:25:14],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : admin
+[08-04-2024 21:25:14],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[08-04-2024 21:25:22],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[08-04-2024 21:25:35],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin

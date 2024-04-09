@@ -1,0 +1,74 @@
+[26-03-2024 21:53:29],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[26-03-2024 21:57:13],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[26-03-2024 21:57:17],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[26-03-2024 21:57:24],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : rayan
+[26-03-2024 21:57:24],[debug],[IP: ::1],Redirection vers la page utilisateur.php pour l'user avec le login : rayan
+[26-03-2024 21:57:28],[debug],[IP: ::1],Redirection vers la page utilisateur.php pour l'user avec le login : rayan
+[26-03-2024 21:57:41],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : admin
+[26-03-2024 21:57:41],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[26-03-2024 21:59:15],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[26-03-2024 22:12:26],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : rayan
+[26-03-2024 22:12:26],[debug],[IP: ::1],Redirection vers la page utilisateur.php pour l'user avec le login : rayan
+[26-03-2024 22:12:46],[info],[IP: ::1],Inscription réussie pour l'utilisateur avec l'adresse e-mail : roro@gmail.com
+[26-03-2024 22:12:59],[error],[IP: ::1],Tentative de connexion. Captcha incorrect. Veuillez réessayer.
+[26-03-2024 22:45:01],[info],[IP: ::1],Inscription réussie pour l'utilisateur avec l'adresse e-mail : Isma@gmail.com
+[26-03-2024 22:45:05],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 22:45:05],[debug],[IP: ::1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 22:45:15],[debug],[IP: ::1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 22:45:32],[debug],[IP: ::1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 22:58:33],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 22:58:33],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 22:59:06],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 22:59:31],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:02:22],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 23:02:22],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:03:28],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:03:40],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:06:36],[info],[IP: 127.0.0.1],Inscription réussie pour l'utilisateur avec l'adresse e-mail : Hoguin@gmail.com
+[26-03-2024 23:06:45],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Hoguin
+[26-03-2024 23:06:45],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Hoguin
+[26-03-2024 23:07:33],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Hoguin
+[26-03-2024 23:10:16],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 23:10:16],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:10:30],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:12:42],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 23:12:42],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:13:23],[error],[IP: 127.0.0.1],Tentative de connexion échouée pour l'utilisateur avec le login : Isma
+[26-03-2024 23:13:29],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 23:13:29],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:13:53],[error],[IP: 127.0.0.1],Tentative de connexion échouée pour l'utilisateur avec le login : Hoguin
+[26-03-2024 23:13:59],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Hoguin
+[26-03-2024 23:13:59],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Hoguin
+[26-03-2024 23:15:20],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Isma
+[26-03-2024 23:15:20],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Isma
+[26-03-2024 23:17:16],[info],[IP: 127.0.0.1],Connexion réussie pour l'utilisateur avec le login : Hoguin
+[26-03-2024 23:17:16],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Hoguin
+[26-03-2024 23:24:52],[info],[IP: 127.0.0.1],Mot de passe changé avec succès pour l'utilisateur avec le login : Hoguin
+[26-03-2024 23:24:52],[debug],[IP: 127.0.0.1],Redirection vers la page utilisateur.php pour l'user avec le login : Hoguin
+[27-03-2024 20:21:03],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : gestion
+[27-03-2024 20:21:03],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 20:33:14],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 20:35:06],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 20:52:40],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 20:52:54],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : gestion
+[27-03-2024 20:52:54],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 20:57:45],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 20:58:09],[info],[IP: ::1],Les statuts ont été mis à jour avec succès.
+[27-03-2024 20:58:09],[info],[IP: ::1],Les priorités ont été mis à jour avec succès.
+[27-03-2024 20:58:09],[info],[IP: ::1],Les techniciens ont été mis à jour avec succès.
+[27-03-2024 20:58:09],[info],[IP: ::1],Les libellés ont été mis à jour avec succès.
+[27-03-2024 20:58:09],[info],[IP: ::1],Les tickets ont été mis à jour avec succès.
+[27-03-2024 20:58:11],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 21:01:41],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : admin 
+[27-03-2024 21:01:41],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin 
+[27-03-2024 21:02:48],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin 
+[27-03-2024 21:28:36],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : admin
+[27-03-2024 21:28:36],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[27-03-2024 21:55:36],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : admin
+[27-03-2024 21:55:36],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[27-03-2024 21:56:29],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
+[27-03-2024 22:00:02],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : gestion
+[27-03-2024 22:00:02],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 22:07:36],[debug],[IP: ::1],Redirection vers la page_adm_web pour l'user avec le login : gestion
+[27-03-2024 22:07:43],[info],[IP: ::1],Connexion réussie pour l'utilisateur avec le login : admin
+[27-03-2024 22:07:43],[debug],[IP: ::1],Redirection vers la page_admin_systeme pour l'user avec le login : admin
